@@ -1,0 +1,138 @@
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+//Cart
+
+
+.shadowCart{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0 ,0 ,0 , 0.5 );
+    z-index: 1;
+    display: flex;
+
+    
+    
+    
+}
+
+.cart{
+    position: absolute;
+    width: 380px;
+    height: 100%;
+    right: 0;
+    background-color: white;
+    overflow: auto;
+    
+   h2{
+     margin-left: 20px;
+   }
+   
+  .close{
+    margin: 10px;
+    cursor: pointer;
+  }
+}
+
+
+.BlockCart{
+  flex-direction: column;
+  margin: 30px;
+
+  span{
+    margin-left: 30px;
+  }
+
+  
+}
+  
+
+
+
+
+//Cart
+
+
+
+
+
+
+.logoMain{
+    margin: 0 150px 0 150px;
+}
+
+
+//header
+
+.heart-header{
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+
+.cart-header{
+  cursor: pointer;
+}
+
+
+.container-cards{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 320px;
+    width: 60%;
+    grid-gap: 30px;
+}
+
+
+
+
+
+.search:after {content:""; clear:both; display:table}
+.search form {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+.search input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 30px;
+  border: 2px solid rgb(220, 220, 220);
+  background: white;
+  outline: none;
+  position: relative;
+  transition: .25s linear;
+}
+
+.search button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0px;
+}
+
+
+.closeSearch{
+  position: absolute;
+  margin-left:  100px;
+  margin-top: 7px;
+  display: flex;
+  
+}
+
+
+    
+    

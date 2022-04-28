@@ -1,0 +1,56 @@
+.cardBlock{
+    width: 200px;
+    margin-left: 30px;
+   
+}
+
+
+
+.heart{
+  display: flex;
+  width: 150px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+ 
+}
+
+.ButtonAddCart{
+    position: absolute;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0) ;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 0 10px;
+    
+
+    &:hover{
+        background-color: rgb(7, 255, 28);
+    }
+
+}
+
+:hover.ButtonAddCart{
+    background-color: rgb(7, 255, 28);
+}
+
+.textButton{
+    margin-right: 30px;
+    text-align: center;
+    
+}
+
+.add{
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
